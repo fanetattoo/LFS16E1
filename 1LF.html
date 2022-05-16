@@ -1,0 +1,55 @@
+
+   <style>
+  .ploska{
+    width: 600px;
+    overflow:hidden;
+    display:block;
+    height: 360px;  
+    
+}
+
+#video{
+    margin-left: -10px;
+    margin-top: -65px;
+    margin-right: -10px;
+    
+}
+
+
+  
+</style>
+
+
+  
+        
+    <div class="ploska">
+        
+      <div id="video"> 
+<script>
+!function (d, id, did, st) {
+  var js = d.createElement("script");
+  js.src = "https://connect.ok.ru/connect.js";
+  js.onload = js.onreadystatechange = function () {
+  if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+    if (!this.executed) {
+      this.executed = true;
+      setTimeout(function () {
+        OK.CONNECT.insertContentWidget(id,did,st);
+      }, 0);
+    }
+  }};
+  d.documentElement.appendChild(js);
+}(document,"video","https://ok.ru/video/1536777652851",'{"topicTextIsFull":0}');
+
+</script>
+
+
+    </div>
+    </div>
+    
+    
+    
+    
+  
+
+  
